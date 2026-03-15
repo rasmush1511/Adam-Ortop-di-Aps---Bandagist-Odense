@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const quickLinks = [
   { href: '/', label: 'Forside' },
-  { href: '/behandlinger', label: 'Behandlinger' },
+  { href: '/behandlinger', label: 'Løsninger' },
   { href: '/kontakt', label: 'Kontakt' },
 ]
 

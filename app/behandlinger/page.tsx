@@ -3,7 +3,7 @@ import PageHero from '@/components/PageHero'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: 'Behandlinger',
+  title: 'Løsninger',
   description:
     'Oversigt over vores fagområder – ortoser, proteser, fodindlæg, specialsko, børneortopædi og kompressionsløsninger hos Adam Ortopædi i Odense.',
   alternates: {
