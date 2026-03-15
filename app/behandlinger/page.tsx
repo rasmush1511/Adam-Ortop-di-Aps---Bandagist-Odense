@@ -5,7 +5,7 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'Behandlinger',
   description:
-    'Oversigt over vores behandlingsområder – ortoser, proteser, fodindlæg, specialsko, børneortopædi og kompressionsløsninger hos Adam Ortopædi i Odense.',
+    'Oversigt over vores fagområder – ortoser, proteser, fodindlæg, specialsko, børneortopædi og kompressionsløsninger hos Adam Ortopædi i Odense.',
   alternates: {
     canonical: 'https://adamortopaedi.dk/behandlinger',
   },
@@ -15,7 +15,7 @@ const treatments = [
   {
     id: 'ortoser',
     headline: 'Ortoser – støtte og stabilitet',
-    text: 'En ortose er et medicinsk hjælpemiddel, der støtter, aflaster eller korrigerer en ledfunktion. Vi tilbyder individuelle ortoser til ankler, knæ, ryg og øvrige led – tilpasset din anatomi og hverdag. Vores ortoser fremstilles eller tilpasses efter grundig undersøgelse og er beregnet til at øge din mobilitet og livskvalitet.',
+    text: 'En ortose er et medicinsk hjælpemiddel, der støtter, aflaster eller korrigerer en ledfunktion. Vi tilbyder individuelle ortoser til ankler, knæ, ryg og øvrige led – tilpasset din anatomi og hverdag. Vores ortoser fremstilles eller tilpasses efter grundig vurdering og opmåling og er beregnet til at øge din mobilitet og livskvalitet.',
     image:
       'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
     imageAlt: 'Ortose tilpasset til patient hos Adam Ortopædi Odense',
@@ -33,7 +33,7 @@ const treatments = [
   {
     id: 'fodindlaeg',
     headline: 'Fodindlæg – lindring og forebyggelse',
-    text: 'Individuelle fodindlæg kan afhjælpe en lang række problemer – fra hælsmerter og plantar fasciitis til overbelastning og forkert fodfunktion. Vi undersøger din fodstilling og gangmønster og fremstiller indlæg, der passer præcist til din fod og dit fodtøj.',
+    text: 'Individuelle fodindlæg kan afhjælpe en lang række problemer – fra hælsmerter og plantar fasciitis til overbelastning og forkert fodfunktion. Vi vurderer din fodstilling og dit gangmønster og fremstiller indlæg, der passer præcist til din fod og dit fodtøj.',
     image:
       'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80',
     imageAlt: 'Individuelle fodindlæg fremstillet hos Adam Ortopædi Odense',
@@ -51,7 +51,7 @@ const treatments = [
   {
     id: 'boerneortopaedi',
     headline: 'Børneortopædi – tryg vækst og bevægelse',
-    text: 'Børns fødder og bevægeapparat er under konstant udvikling. Tidlig og korrekt indsats kan forebygge fremtidige problemer. Vi tilbyder skånsom og grundig undersøgelse af børns fodstilling, gangmønster og evt. afvigelser, og rådgiver forældre om de bedste løsninger – altid med barnets trivsel i centrum.',
+    text: 'Børns fødder og bevægeapparat er under konstant udvikling. Tidlig og korrekt indsats kan forebygge fremtidige problemer. Vi tilbyder skånsom og grundig vurdering af børns fodstilling, gangmønster og evt. afvigelser, og rådgiver forældre om de bedste løsninger – altid med barnets trivsel i centrum.',
     image:
       'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80',
     imageAlt: 'Børneortopædi og fodundersøgelse hos Adam Ortopædi Odense',
@@ -69,7 +69,7 @@ const treatments = [
   {
     id: 'raadgivning',
     headline: 'Rådgivning – din situation, din løsning',
-    text: 'Hos Adam Ortopædi er rådgivning ikke blot et supplement – det er udgangspunktet for alt, hvad vi gør. Vi lytter, undersøger og tilpasser. Uanset om du kommer med en specifik diagnose, en udfordring fra hverdagen eller blot ønsker vejledning, tager vi os tid til at finde den løsning, der passer bedst til dig.',
+    text: 'Hos Adam Ortopædi er rådgivning ikke blot et supplement – det er udgangspunktet for alt, hvad vi gør. Vi lytter, vurderer og tilpasser. Uanset om du kommer med en specifik diagnose, en udfordring fra hverdagen eller blot ønsker vejledning, tager vi os tid til at finde den løsning, der passer bedst til dig.',
     image:
       'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80',
     imageAlt: 'Individuel rådgivning og ortopædisk vejledning hos Adam Ortopædi Odense',
@@ -81,9 +81,9 @@ export default function BehandlingerPage() {
   return (
     <>
       <PageHero
-        title="Vores behandlinger"
-        subtitle="Vi tilbyder et bredt spektrum af ortopædiske løsninger – alle individuelt tilpasset din situation og dine behov. Udforsk vores behandlingsområder herunder."
-        breadcrumb={[{ label: 'Forside', href: '/' }, { label: 'Behandlinger' }]}
+        title="Vores løsninger"
+        subtitle="Vi tilbyder et bredt spektrum af ortopædiske løsninger – alle individuelt tilpasset din situation og dine behov. Udforsk vores fagområder herunder."
+        breadcrumb={[{ label: 'Forside', href: '/' }, { label: 'Løsninger' }]}
       />
 
       <div className="bg-ivory">
@@ -144,7 +144,7 @@ export default function BehandlingerPage() {
       </div>
 
       <CTASection
-        title="Har du spørgsmål til vores behandlinger?"
+        title="Har du spørgsmål til vores løsninger?"
         subtitle="Vi tager os altid tid til at svare dine spørgsmål og finde den løsning, der passer til dig. Ring eller skriv – vi er klar til at hjælpe."
         primaryBtn={{ label: 'Ring nu', href: 'tel:+4521356312' }}
         secondaryBtn={{ label: 'Kontakt os', href: '/kontakt' }}

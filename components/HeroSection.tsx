@@ -14,7 +14,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1920&q=80"
-          alt="Professionel ortopædisk behandling og omsorg"
+          alt="Individuelle ortopædiske løsninger og personlig rådgivning"
           fill
           priority
           className="object-cover object-center"

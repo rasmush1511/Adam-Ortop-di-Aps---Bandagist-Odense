@@ -2,7 +2,7 @@ const trustPillars = [
   {
     title: 'Individuel tilpasning',
     description:
-      'Ingen to patienter er ens. Vi undersøger, måler og tilpasser alle løsninger efter din specifikke anatomi, dit gangmønster og dine daglige behov. Det er individualisering, ikke standardløsninger, der skaber resultater.',
+      'Ingen to mennesker er ens. Vi vurderer, måler og tilpasser alle hjælpemidler efter din specifikke anatomi, dit gangmønster og dine daglige behov. Det er individuelle løsninger, ikke standardprodukter, der gør den reelle forskel.',
     icon: (
       <svg
         className="w-8 h-8 text-teal"
@@ -23,7 +23,7 @@ const trustPillars = [
   {
     title: 'Erfaren rådgivning',
     description:
-      'Vores team besidder mange års erfaring inden for bandagistfaget og ortopædi. Vi holder os opdaterede på de nyeste metoder og hjælpemidler – og vi samarbejder tæt med læger, hospitaler og kommuner.',
+      'Med solid erfaring inden for bandagistfaget og ortopædi holder vi os opdaterede på de nyeste hjælpemidler og tilpasningsmetoder – og vi samarbejder tæt med læger, hospitaler og kommuner.',
     icon: (
       <svg
         className="w-8 h-8 text-teal"
@@ -44,7 +44,7 @@ const trustPillars = [
   {
     title: 'Lokalt forankret i Odense',
     description:
-      'Vi er stolte af at være en del af lokalsamfundet i Odense. Som lokal klinik kender vi borgernes behov og samarbejder med kommunen og de lokale sundhedstilbud for at sikre den bedst mulige behandling.',
+      'Vi er stolte af at være en del af lokalsamfundet i Odense. Som lokal klinik kender vi borgernes behov og samarbejder med kommunen og de lokale sundhedstilbud for at sikre den bedst mulige hjælp og vejledning.',
     icon: (
       <svg
         className="w-8 h-8 text-teal"

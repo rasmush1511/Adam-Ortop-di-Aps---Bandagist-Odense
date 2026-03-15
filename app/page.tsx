@@ -49,7 +49,7 @@ const services = [
     icon: 'boern',
     title: 'Børneortopædi',
     description:
-      'Skånsom undersøgelse og rådgivning om børns fodstilling og gangmønster – altid med barnets trivsel i centrum.',
+      'Skånsom vurdering og rådgivning om børns fodstilling og gangmønster – altid med barnets trivsel i centrum.',
     href: '/behandlinger',
   },
   {
@@ -74,7 +74,7 @@ function TrustBadges() {
             </div>
             <div>
               <h3 className="text-base font-semibold text-charcoal leading-tight">Kvalitet</h3>
-              <p className="text-sm text-charcoal/60 mt-0.5">Dokumenterede løsninger og certificerede produkter</p>
+              <p className="text-sm text-charcoal/60 mt-0.5">Kvalitetsprodukter og fagligt gennemprøvede løsninger</p>
             </div>
           </div>
           <div className="flex items-center gap-4 py-3 sm:py-0 sm:px-4">
@@ -85,7 +85,7 @@ function TrustBadges() {
             </div>
             <div>
               <h3 className="text-base font-semibold text-charcoal leading-tight">Omsorg</h3>
-              <p className="text-sm text-charcoal/60 mt-0.5">Personlig og empatisk behandling af hver patient</p>
+              <p className="text-sm text-charcoal/60 mt-0.5">Personlig og empatisk betjening af hver enkelt</p>
             </div>
           </div>
           <div className="flex items-center gap-4 py-3 sm:py-0 sm:px-4 last:sm:pr-0">
@@ -150,8 +150,8 @@ function ApproachSection() {
               arbejder på.
             </p>
             <p className="text-base md:text-lg text-charcoal/80 leading-relaxed mb-6">
-              Vores tilgang er baseret på åben dialog, grundige undersøgelser og
-              tæt samarbejde med dig som patient. Vi tager os den tid, der er
+              Vores tilgang er baseret på åben dialog, grundige vurderinger og
+              opmålinger samt tæt samarbejde med dig. Vi tager os den tid, der er
               nødvendig for at finde den rigtige løsning – og vi følger dig
               gennem hele forløbet.
             </p>
@@ -220,14 +220,15 @@ export default function HomePage() {
               </p>
               <p className="mt-4 text-base md:text-lg text-charcoal/80 leading-relaxed">
                 Vi samarbejder tæt med læger, hospitaler og kommuner for at
-                sikre, at du får den bedst mulige hjælp – og at dine løsninger
-                passer ind i dit samlede behandlingsforløb.
+                sikre, at du får den bedst mulige hjælp. Vi arbejder både med
+                løsninger via egenbetaling, lægehenvisning og kommunale
+                bevillinger.
               </p>
             </div>
             <div className="relative rounded-2xl overflow-hidden shadow-xl h-80 md:h-96">
               <img
                 src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80"
-                alt="Adam Ortopædi klinik i Odense – professionel ortopædisk behandling"
+                alt="Adam Ortopædi ApS – bandagist og ortopædiske løsninger i Odense"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -242,7 +243,7 @@ export default function HomePage() {
         title="Klar til at tage det første skridt?"
         subtitle="Ring til os i dag, og lad os finde den løsning, der passer til dig. Vi sidder klar mandag–fredag 8–16."
         primaryBtn={{ label: 'Ring nu', href: 'tel:+4521356312' }}
-        secondaryBtn={{ label: 'Se vores behandlinger', href: '/behandlinger' }}
+        secondaryBtn={{ label: 'Se vores løsninger', href: '/behandlinger' }}
       />
       <MapSection />
     </>

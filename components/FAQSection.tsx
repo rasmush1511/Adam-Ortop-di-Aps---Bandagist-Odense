@@ -21,7 +21,7 @@ const faqItems = [
   {
     question: 'Har jeg brug for en henvisning?',
     answer:
-      'Det er ikke altid nødvendigt. Kontakt os, og vi hjælper dig med at afklare, hvad der gælder i din situation.',
+      'Det afhænger af, hvordan du ønsker at finansiere din løsning. Du kan altid henvende dig direkte uden henvisning og betale selv (egenbetaling). Har du en lægehenvisning, kan du i mange tilfælde få dækket udgifterne helt eller delvist. Kommunale bevillinger er ligeledes en mulighed – vi hjælper dig med at afklare, hvad der gælder i din konkrete situation.',
   },
   {
     question: 'Hvor ligger klinikken, og hvornår er I åbne?',
