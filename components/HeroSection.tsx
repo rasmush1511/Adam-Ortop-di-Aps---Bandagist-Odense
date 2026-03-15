@@ -97,7 +97,7 @@ export default function HeroSection() {
             href="/behandlinger"
             className="inline-flex items-center justify-center gap-2 text-white underline underline-offset-4 px-8 py-4 font-semibold text-base hover:text-sage transition-colors duration-200 w-full sm:w-auto"
           >
-            Se vores behandlinger
+            Se vores løsninger
             <svg
               className="w-4 h-4"
               fill="none"
